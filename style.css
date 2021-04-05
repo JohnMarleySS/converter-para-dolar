@@ -1,0 +1,98 @@
+    @font-face {
+        font-family: "rock";
+        src: url(./_font/RockSalt-Regular.ttf);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        height: 100vh;
+        background-color: #232323;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: 600px;
+        width: 600px;
+    }
+    
+    .colum-padrao {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    h1 {
+        display: flex;
+        font-family: "rock";
+        font-size: 20px;
+        align-items: center;
+        color: white;
+    }
+    
+    .reais {
+        display: flex;
+        width: 349px;
+        height: 52px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 15px;
+        font-family: "rock";
+        font-weight: bold;
+    }
+    
+    .dois-inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 200px;
+    }
+    
+    .botao {
+        width: 349px;
+        height: 52px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "rock";
+        font-weight: bold;
+        background: linear-gradient(180deg, #E77777 0%, rgba(255, 255, 255, 0) 100%), #7F853F;
+    }
+    
+    .porquin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .porco-div {
+        padding-top: 100px;
+    }
+    
+    img {
+        height: 250px;
+        height: 200px;
+    }
+    
+    .imagem {
+        background-image: url("./_img/dialogo.png");
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 200px;
+    }
+    
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding: 15%;
+    }
